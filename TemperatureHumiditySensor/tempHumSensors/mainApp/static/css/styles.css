@@ -24,14 +24,22 @@ header{
     height: 100%;
 }
 .header_cont h1{
-    font-size: 17px;
+    font-size: 18px;
 }
 .nav_list{
     list-style: none;
-
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.nav_list li{
+    margin-left: 14px;
 }
 .nav_list li a{
     text-decoration: none;
     color: #fffffe;
     font-weight: bold;
+}
+.mainApp_content{
+    margin-top: 20px;
 }
