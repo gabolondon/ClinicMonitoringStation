@@ -40,6 +40,24 @@ header{
     color: #fffffe;
     font-weight: bold;
 }
-.mainApp_content{
+.mainApp_content{    
+    margin: 20px 20px 0 20px;
+    text-align: left;
+    color: #00473e;
+}
+.dash_box_sensor{    
+    box-shadow: 2px 2px 6px 0px rgba(71,93,91,0.72);
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 5px;
+    padding: 2.5rem;
     margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #fffffe;
+}
+.dash_box_sensor span{
+    margin-top: 5px;
+    color: #475d5b;
 }
